@@ -378,24 +378,28 @@
     border: 2px solid #3c4955;
     color: #3c4955;
     font-weight: bold;
-    padding: 10px 20px 10px 50px;
+    padding: 10px 20px 10px 65px;
     border-radius: 3px;
     position: relative;
+    background-repeat: no-repeat;
+    background-size: 53px;
+    background-position: -1px;
     -webkit-transition: all .3s ease;
     -o-transition: all .3s ease;
     transition: all .3s ease; }
-    .contact__input:before {
-      content: "asdfg"; }
     .contact__input--name {
       -ms-flex-preferred-size: 48%;
-      flex-basis: 48%; }
+      flex-basis: 48%;
+      background-image: url(../icons/user.svg); }
     .contact__input--email {
       -ms-flex-preferred-size: 48%;
-      flex-basis: 48%; }
+      flex-basis: 48%;
+      background-image: url(../icons/mail.svg); }
     .contact__input--message {
       resize: none;
       -ms-flex-preferred-size: 100%;
-      flex-basis: 100%; }
+      flex-basis: 100%;
+      background-image: url(../icons/crayon.svg); }
     .contact__input:hover {
       background-color: #e8e8e8;
       -webkit-transition: all .3s ease;
@@ -538,7 +542,12 @@
 
 @media screen and (max-width: 375px) {
   .about {
-    background-position: 34%; } }
+    background-position: 34%; }
+    .about__container {
+      padding: 0 15px; }
+    .about__content {
+      width: 100%;
+      text-align: center; } }
 
 @font-face {
   font-family: 'BigJohn';
