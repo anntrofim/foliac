@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Foliac v3</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="favicon.png"/>
+	<!-- <link rel="stylesheet" type="text/css" href="css/normalize.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__container container">
+			<div class="header__logo"><img class="header__logo-long" src="images/foliac-logo.png"><img class="header__logo-short" src="images/foliac-logo-short.png"></div>
+			<button class="header__dropbtn">Menu</button>
+			<nav class="header__nav">
+				<ul>
+					<li><a class="header__ref" href="#hero">Accueil</a></li><span>/</span>
+					<li><a class="header__ref" href="#portfolio">Portfolio</a></li><span>/</span>
+					<li><a class="header__ref" href="#about">About</a></li><span>/</span>
+					<li><a class="header__ref" href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main class="main">
+
+		<section class="hero" id="hero">
+			<div class="hero__container container">
+				<h1 class="hero__title">Voici votre prochain portfolio</h1>
+				<h2 class="hero__subtitle">Un template psd simple et gratui</h2>
+				<button class="hero__btn">Mes travaux</button>
+			</div>
+		</section>
+
+		<section class="portfolio" id="portfolio">
+			<div class="portfolio__container container">
+				<div class="portfolio__filtres">
+					<button class="portfolio__btn">Tous les projets</button>
+					<button class="portfolio__btn">Webdesign</button>
+					<button class="portfolio__btn">UI/UX design</button>
+					<button class="portfolio__btn">Illustration</button>
+					<button class="portfolio__btn">Motion design</button>
+				</div>
+				<div class="portfolio__content">
+					<div class="item">
+						<img class="item__photo" src="images/item_1.png">
+						<div class="item__content">
+							<p class="item__title">All your devices<br><span class="item__subtitle">always with you</span></p>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__photo" src="images/item_2.png">
+						<div class="item__content">
+							<p class="item__title">Make your work easier<br><span class="item__subtitle">with our new planner</span></p>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__photo" src="images/item_3.png">
+						<div class="item__content">
+							<p class="item__title">Forest app<br><span class="item__subtitle">application mobile</span></p>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__photo" src="images/item_4.png">
+						<div class="item__content">
+							<p class="item__title">Perfect prototype<br><span class="item__subtitle">beginning of the success</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="about" id="about">
+			<div class="about__container container">
+				<div class="about__content">
+					<h2 class="about__name">Michel Dupont</h2>
+					<h3 class="about__position">Webdesigner, illustrateur, auteur</h3>
+					<p class="about__desc">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+					</p>
+					<button class="about__btn">Me contacter</button>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="contact" id="contact">
+		<div class="contact__container container">
+				<h2 class="contact__title">Me contacter</h2>
+				<form class="contact__form">
+					<input class="contact__input contact__input--name" type="text" name="name" placeholder="Votre nom">
+					<input class="contact__input contact__input--email" type="email" name="email" placeholder="Votre email" required>
+					<textarea class="contact__input contact__input--message" name="message" rows="8"placeholder="Votre message"></textarea>
+					<input class="contact__btn" type="submit" name="submit" value="Envoyer">
+				</form>
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="footer">
+		<div class="footer__container container">
+			<p class="footer__copyright">Copyright &copy; 2015 by beneggen - <a class="footer__ref" href="#">www.beneggen.fr</a></p>
+			<div class="footer__socials">
+				<div class="footer__polygon footer__polygon--tw">
+					<i class="fab fa-twitter"></i>
+				</div>
+				<div class="footer__polygon footer__polygon--in">
+					<i class="fab fa-linkedin"></i>
+				</div>
+				<div class="footer__polygon footer__polygon--dr">
+					<i class="fab fa-dribbble"></i>
+				</div>
+				<div class="footer__polygon footer__polygon--be">
+					<i class="fab fa-behance"></i>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
